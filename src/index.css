@@ -1,0 +1,41 @@
+nav {
+  background: purple;         /* Dark modern navbar */
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav ul li a {
+  color: #e6edf3;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background: #238636;          /* GitHub green hover */
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Active link (optional) */
+.active-link {
+  background: #238636;
+  color: white !important;
+}
